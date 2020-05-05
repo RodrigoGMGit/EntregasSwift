@@ -1,0 +1,27 @@
+var rango = 1...100
+
+for num in rango
+{
+    if num % 5 == 0 {print("#\(num) Bingo!!!")}
+        
+    let mod = num % 2
+    switch mod {
+    case 0:     print("#\(num) par!!!")
+    case 1:     print("#\(num) impar!!!")
+    default:    print("")
+    }
+    
+    switch num {
+    case 30...40:   print("#\(num) Viva Swift!!!\n")
+    default:        print("")
+    }
+}
+
+
+
+
+
+
+
+
+
